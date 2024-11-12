@@ -77,3 +77,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // To squeeze firmware size
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
+
+// yaitaimo's settings
+
+// 別のキーが押されたとき、TAPPING_TERM 前にキーを離しても Hold 扱い
+#define PERMISSIVE_HOLD
+
+// 別のキーが押されなかったとき、TAPPING_TERM 後にキーを離しても TAP 扱い
+#define RETRO_TAPPING
