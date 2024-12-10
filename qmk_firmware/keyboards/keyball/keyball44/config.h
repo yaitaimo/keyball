@@ -85,3 +85,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // 別のキーが押されなかったとき、TAPPING_TERM 後にキーを離しても TAP 扱い
 #define RETRO_TAPPING
+
+// オートマウスレイヤーを有効化
+#define AUTO_MOUSE_LAYER_ENABLE
+
+// オートマウスレイヤーのタイムアウト時間
+#define AUTO_MOUSE_LAYER_TIMEOUT 150
