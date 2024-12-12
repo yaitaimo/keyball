@@ -91,3 +91,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // オートマウスレイヤーのタイムアウト時間
 #define AUTO_MOUSE_LAYER_TIMEOUT 150
+
+// ディスプレイの輝度を超世
+#define OLED_BRIGHTNESS 36
