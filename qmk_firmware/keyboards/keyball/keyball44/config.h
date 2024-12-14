@@ -96,4 +96,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_BASE_SPEED 5400
 
 // ディスプレイの輝度を超世
-#define OLED_BRIGHTNESS 12
+#define OLED_BRIGHTNESS 1
