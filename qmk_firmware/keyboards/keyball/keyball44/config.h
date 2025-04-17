@@ -84,7 +84,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 
 // 別のキーが押されなかったとき、TAPPING_TERM 後にキーを離しても TAP 扱い
-#define RETRO_TAPPING
+//#define RETRO_TAPPING
 
 // オートマウスレイヤーを有効化
 #define AUTO_MOUSE_LAYER_ENABLE
@@ -97,5 +97,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // ディスプレイの輝度を超世
 #define OLED_BRIGHTNESS 1
-
-#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
