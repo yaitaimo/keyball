@@ -59,6 +59,17 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     return state;
 }
 
+bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(1, KC_SPC):
+            // スペースキーの場合、他のキーが押されたときにレイヤー1を有効にするためにtrueを返す
+            return true;
+        default:
+            // 他のキーは通常通り
+            return true;
+    }
+}
+
 #ifdef OLED_ENABLE
 
 #    include "lib/oledkit/oledkit.h"
