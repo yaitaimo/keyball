@@ -44,3 +44,14 @@ void keyball_on_adjust_layout(keyball_adjust_t v) {
     rgblight_set_effect_range(0, lednum_this + lednum_that);
 #endif
 }
+
+bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(1, KC_SPC):
+            // スペースキーの場合、他のキーが押されてもタップとして扱う
+            return false;
+        default:
+            // 他のキーは通常通り
+            return true;
+    }
+}

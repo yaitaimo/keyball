@@ -97,3 +97,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // ディスプレイの輝度を超世
 #define OLED_BRIGHTNESS 1
+
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
