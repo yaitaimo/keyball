@@ -81,10 +81,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // yaitaimo's settings
 
 // 別のキーが押されたとき、TAPPING_TERM 前にキーを離しても Hold 扱い
-//#define PERMISSIVE_HOLD
+#define PERMISSIVE_HOLD
 
 // 別のキーが押されなかったとき、TAPPING_TERM 後にキーを離しても TAP 扱い
-//#define RETRO_TAPPING
+#define RETRO_TAPPING
 
 #define TAPPING_TERM 100
 
@@ -97,5 +97,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // マウス速度
 #define MOUSEKEY_BASE_SPEED 5400
 
-// ディスプレイの輝度を超世
+// ディスプレイ輝度
 #define OLED_BRIGHTNESS 1
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
