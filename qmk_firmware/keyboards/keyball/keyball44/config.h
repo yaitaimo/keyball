@@ -81,12 +81,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // yaitaimo's settings
 
 // 別のキーが押されたとき、TAPPING_TERM 前にキーを離しても Hold 扱い
-#define PERMISSIVE_HOLD
+//#define PERMISSIVE_HOLD
 
 // 別のキーが押されなかったとき、TAPPING_TERM 後にキーを離しても TAP 扱い
 #define RETRO_TAPPING
 
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 
 // オートマウスレイヤーを有効化
 #define AUTO_MOUSE_LAYER_ENABLE
