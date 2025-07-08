@@ -88,9 +88,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_TERM 200
 
-// オートマウスレイヤーのタイムアウト時間
-#define AUTO_MOUSE_LAYER_TIMEOUT 150
-
 // マウス速度
 #define MOUSEKEY_BASE_SPEED 5400
 
